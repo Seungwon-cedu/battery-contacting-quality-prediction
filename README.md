@@ -46,6 +46,12 @@ The repository focuses on the technical pipeline: loading multi-channel time-ser
 `-- README.md
 ```
 
+## Sample Code Notice
+
+This repository contains a code-only, portfolio-safe sample version of the project. Due to NDA/confidentiality constraints, the original dataset, labels, reports, figures, partner-specific details, and actual experiment outputs are not included.
+
+The runnable scripts use synthetic sample data only. They are intended to show the project structure, preprocessing approach, feature engineering, model training workflow, and LSTM implementation without disclosing private project material.
+
 ## Quick start
 
 ```bash
