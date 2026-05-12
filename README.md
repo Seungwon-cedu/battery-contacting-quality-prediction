@@ -12,6 +12,7 @@ This project demonstrates a machine-learning pipeline for quality prediction fro
 - Implemented reusable preprocessing and feature extraction utilities
 - Added Random Forest training/evaluation with stratified cross-validation
 - Added an LSTM sequence classifier with oversampling and jitter augmentation
+- Compared classical ML and sequence-modeling approaches under class imbalance
 - Included runnable synthetic-data demos so reviewers can execute the workflow without private data
 - Kept raw data, labels, reports, figures, partner details, and private results out of Git
 
@@ -37,16 +38,15 @@ All runnable examples are sample-only implementations that use synthetic data. T
 
 The repository focuses on the technical pipeline: loading multi-channel time-series sensor data, preprocessing signals, extracting statistical features, and training/evaluating both classical ML and LSTM models for quality classification. Synthetic demos are included so the code can be reviewed and executed without private data.
 
-## Contribution areas represented
+## My contribution
 
-- SQLite-based measurement ingestion
-- multi-channel signal trimming and smoothing
-- feature engineering for time-series sensor channels
-- class-imbalance-aware model training
-- stratified cross-validation
-- Random Forest baseline and hyperparameter tuning
-- LSTM sequence model with oversampling and jitter augmentation
-- reusable project structure for private data kept outside Git
+- Data preprocessing pipeline for multi-channel time-series measurements
+- Feature engineering for statistical signal descriptors
+- Random Forest baseline training, validation, and evaluation
+- LSTM sequence-model implementation with fold-safe augmentation
+- Model comparison between classical ML and sequential deep learning approaches
+- Result analysis and interpretation under class imbalance and confidentiality constraints
+- Public-safe repository packaging using synthetic demos instead of private data
 
 ## Repository structure
 
@@ -92,6 +92,7 @@ Expected output: small cross-validation summaries for synthetic Random Forest an
 - Feature engineering design for time-series sensor channels
 - Baseline model evaluation using scikit-learn
 - LSTM implementation for sequence classification in PyTorch
+- Comparative modeling workflow across Random Forest and LSTM approaches
 - Reproducible synthetic demos that do not require access to private files
 
 ## Private data workflow
