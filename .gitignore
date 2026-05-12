@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Private data and generated outputs
+data/
+labels/
+output_data/
+outputs/
+models/
+reports/
+figures/
+
+# Raw measurement and tabular files
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+*.xls
+*.numbers
+*.csv
+*.parquet
+*.h5
+
+# Binary artifacts
+*.zip
+*.tar
+*.tar.gz
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+# Original deliverables / media
+*.pdf
+*.pptx
+*.docx
+*.png
+*.jpg
+*.jpeg
+*.svg

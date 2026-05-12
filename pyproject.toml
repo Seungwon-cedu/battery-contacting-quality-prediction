@@ -1,0 +1,18 @@
+[project]
+name = "battery-contacting-quality-prediction"
+version = "0.1.0"
+description = "Public-safe portfolio code for industrial battery contacting quality prediction."
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.0",
+  "scipy>=1.11",
+  "scikit-learn>=1.4",
+  "torch>=2.0",
+  "matplotlib>=3.8",
+  "seaborn>=0.13",
+  "openpyxl>=3.1",
+]
+
+[tool.ruff]
+line-length = 100
