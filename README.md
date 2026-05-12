@@ -6,6 +6,10 @@ Public-safe portfolio version of a machine-learning project for industrial batte
 
 This project demonstrates a machine-learning pipeline for quality prediction from multi-channel industrial time-series data. The public version focuses on reusable engineering patterns rather than private project material: data loading, signal preprocessing, feature extraction, classical model evaluation, and LSTM-based sequence modeling.
 
+## Pipeline overview
+
+![Public-safe machine learning pipeline](assets/pipeline.svg)
+
 ## Project highlights
 
 - Built a structured Python package for industrial sensor time-series analysis

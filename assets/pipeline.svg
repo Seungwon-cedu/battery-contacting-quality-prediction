@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Public-safe machine learning pipeline</title>
+  <desc id="desc">A portfolio-safe pipeline diagram showing private data kept outside Git, preprocessing, feature engineering, Random Forest and LSTM modeling, model comparison, and synthetic demo publication.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+    <style>
+      .bg { fill: #f8fafc; }
+      .hero-title { fill: #ffffff; font: 700 32px Arial, sans-serif; }
+      .hero-subtitle { fill: #dbeafe; font: 400 16px Arial, sans-serif; }
+      .subtitle { fill: #475569; font: 400 16px Arial, sans-serif; }
+      .section { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.4; filter: url(#shadow); }
+      .box-title { fill: #0f172a; font: 700 17px Arial, sans-serif; }
+      .box-text { fill: #475569; font: 400 13px Arial, sans-serif; }
+      .badge { fill: #e0f2fe; stroke: #7dd3fc; stroke-width: 1; }
+      .badge-text { fill: #075985; font: 700 12px Arial, sans-serif; }
+      .arrow { stroke: #475569; stroke-width: 2.2; fill: none; marker-end: url(#arrow); }
+      .split { stroke: #94a3b8; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+      .note { fill: #fff7ed; stroke: #fed7aa; stroke-width: 1.4; }
+      .note-title { fill: #9a3412; font: 700 15px Arial, sans-serif; }
+      .note-text { fill: #7c2d12; font: 400 12.5px Arial, sans-serif; }
+      .icon { fill: #0f766e; opacity: 0.9; }
+      .icon-blue { fill: #2563eb; opacity: 0.9; }
+      .icon-amber { fill: #d97706; opacity: 0.9; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="520" rx="0"/>
+  <rect x="0" y="0" width="1200" height="84" fill="url(#header)"/>
+  <text class="hero-title" x="48" y="42">Battery Contacting Quality Prediction</text>
+  <text class="hero-subtitle" x="50" y="66">Public-safe ML pipeline for portfolio review using synthetic demo data</text>
+
+  <rect class="note" x="780" y="24" width="370" height="42" rx="8"/>
+  <text class="note-title" x="800" y="43">NDA-safe publication boundary</text>
+  <text class="note-text" x="800" y="59">No raw data, labels, reports, private metrics, or partner details</text>
+
+  <g transform="translate(44 128)">
+    <rect class="section" x="0" y="0" width="160" height="112" rx="10"/>
+    <circle class="icon-amber" cx="30" cy="32" r="13"/>
+    <rect class="icon-amber" x="22" y="45" width="16" height="28" rx="3"/>
+    <text class="box-title" x="54" y="30">Private Inputs</text>
+    <text class="box-text" x="22" y="62">Authorized local</text>
+    <text class="box-text" x="22" y="81">measurements and</text>
+    <text class="box-text" x="22" y="100">labels outside Git</text>
+  </g>
+
+  <path class="arrow" d="M 210 184 L 255 184"/>
+
+  <g transform="translate(260 128)">
+    <rect class="section" x="0" y="0" width="172" height="112" rx="10"/>
+    <path class="icon" d="M25 28 h34 v10 h-34 z M25 48 h46 v10 h-46 z M25 68 h28 v10 h-28 z"/>
+    <text class="box-title" x="72" y="30">Data Loading</text>
+    <text class="box-text" x="22" y="62">SQLite ingestion</text>
+    <text class="box-text" x="22" y="81">and generic config</text>
+    <text class="box-text" x="22" y="100">for local paths</text>
+  </g>
+
+  <path class="arrow" d="M 437 184 L 482 184"/>
+
+  <g transform="translate(486 128)">
+    <rect class="section" x="0" y="0" width="178" height="112" rx="10"/>
+    <path class="icon-blue" d="M24 76 C40 34, 52 34, 66 76 S92 116, 110 56" stroke="#2563eb" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <text class="box-title" x="78" y="30">Preprocessing</text>
+    <text class="box-text" x="22" y="62">Trim signals</text>
+    <text class="box-text" x="22" y="81">smooth channels</text>
+    <text class="box-text" x="22" y="100">align samples</text>
+  </g>
+
+  <path class="arrow" d="M 668 184 L 713 184"/>
+
+  <g transform="translate(718 128)">
+    <rect class="section" x="0" y="0" width="184" height="112" rx="10"/>
+    <rect class="badge" x="22" y="22" width="50" height="24" rx="12"/>
+    <text class="badge-text" x="33" y="39">FE</text>
+    <text class="box-title" x="82" y="30">Feature Set</text>
+    <text class="box-text" x="22" y="62">Statistical signal</text>
+    <text class="box-text" x="22" y="81">descriptors for</text>
+    <text class="box-text" x="22" y="100">tabular models</text>
+  </g>
+
+  <path class="split" d="M 910 184 C 948 184, 948 116, 988 116"/>
+  <path class="split" d="M 910 184 C 948 184, 948 252, 988 252"/>
+
+  <g transform="translate(994 64)">
+    <rect class="section" x="0" y="0" width="162" height="104" rx="10"/>
+    <text class="box-title" x="24" y="30">Random Forest</text>
+    <text class="box-text" x="24" y="58">Cross-validation</text>
+    <text class="box-text" x="24" y="77">baseline and</text>
+    <text class="box-text" x="24" y="96">tuning workflow</text>
+  </g>
+
+  <g transform="translate(994 200)">
+    <rect class="section" x="0" y="0" width="162" height="104" rx="10"/>
+    <text class="box-title" x="24" y="30">LSTM Model</text>
+    <text class="box-text" x="24" y="58">Sequence classifier</text>
+    <text class="box-text" x="24" y="77">with fold-safe</text>
+    <text class="box-text" x="24" y="96">augmentation</text>
+  </g>
+
+  <path class="split" d="M 1074 170 C 1074 184, 1010 342, 882 342"/>
+  <path class="split" d="M 1074 306 C 1074 322, 1010 342, 882 342"/>
+
+  <g transform="translate(650 294)">
+    <rect class="section" x="0" y="0" width="232" height="104" rx="10"/>
+    <text class="box-title" x="24" y="30">Model Comparison</text>
+    <text class="box-text" x="24" y="58">Accuracy and macro-F1</text>
+    <text class="box-text" x="24" y="77">used privately for</text>
+    <text class="box-text" x="24" y="96">analysis only</text>
+  </g>
+
+  <path class="arrow" d="M 650 346 L 592 346"/>
+
+  <g transform="translate(356 294)">
+    <rect class="section" x="0" y="0" width="236" height="104" rx="10"/>
+    <text class="box-title" x="24" y="30">Public Repository</text>
+    <text class="box-text" x="24" y="58">Reusable code package</text>
+    <text class="box-text" x="24" y="77">and synthetic demos</text>
+    <text class="box-text" x="24" y="96">for review</text>
+  </g>
+
+  <path class="arrow" d="M 356 346 L 298 346"/>
+
+  <g transform="translate(62 294)">
+    <rect class="section" x="0" y="0" width="236" height="104" rx="10"/>
+    <text class="box-title" x="24" y="30">Reviewer View</text>
+    <text class="box-text" x="24" y="58">Run examples without</text>
+    <text class="box-text" x="24" y="77">private files and inspect</text>
+    <text class="box-text" x="24" y="96">the ML workflow</text>
+  </g>
+
+  <text class="subtitle" x="48" y="470">Public artifact: code structure, preprocessing, feature engineering, RF/LSTM workflows, and synthetic smoke tests.</text>
+  <text class="subtitle" x="48" y="494">Private artifact: original data, labels, figures, reports, partner context, and exact private-dataset results.</text>
+</svg>
