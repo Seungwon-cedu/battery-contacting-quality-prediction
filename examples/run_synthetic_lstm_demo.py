@@ -1,5 +1,11 @@
 from __future__ import annotations
 
+"""Sample-only LSTM demo using synthetic sequence data.
+
+The original project data and experiment outputs are not included because of
+NDA/confidentiality constraints.
+"""
+
 from pathlib import Path
 import sys
 

@@ -12,6 +12,8 @@ The original project was completed in an academic/industry setting and may be su
 - original reports, slides, figures, and process images
 - fold-level predictions, confusion matrices, and raw model artifacts
 
+All runnable examples are sample-only implementations that use synthetic data. They are included to demonstrate the code structure under NDA/confidentiality constraints, not to reproduce or disclose private experiments.
+
 The repository focuses on the technical pipeline: loading multi-channel time-series sensor data, preprocessing signals, extracting statistical features, and training/evaluating both classical ML and LSTM models for quality classification. Synthetic demos are included so the code can be reviewed and executed without private data.
 
 ## Technical scope

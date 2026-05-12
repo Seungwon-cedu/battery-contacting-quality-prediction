@@ -1,5 +1,11 @@
 from __future__ import annotations
 
+"""Local-only feature extraction entry point for authorized private data.
+
+Generated feature tables should stay outside Git unless they are explicitly
+cleared for publication.
+"""
+
 import os
 from pathlib import Path
 import sys

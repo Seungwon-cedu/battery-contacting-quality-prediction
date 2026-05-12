@@ -1,5 +1,11 @@
 from __future__ import annotations
 
+"""Sample-only Random Forest demo using synthetic data.
+
+The original project data and experiment outputs are not included because of
+NDA/confidentiality constraints.
+"""
+
 from pathlib import Path
 import sys
 
