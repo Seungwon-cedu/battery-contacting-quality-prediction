@@ -46,7 +46,3 @@ figures/
 *.jpg
 *.jpeg
 *.svg
-
-# Public-safe README asset
-!assets/
-!assets/pipeline.svg
